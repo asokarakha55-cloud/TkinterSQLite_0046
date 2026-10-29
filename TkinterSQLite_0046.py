@@ -162,4 +162,4 @@ def on_predict_and_add():
     data = read_form()
     if data:
         nama, usia, gula, bmi, riwayat = data
-        kategori_risiko, warna_hex = hitung_prediksi_risiko(gula
+        kategori_risiko, warna_hex = hitung_prediksi_risiko(gula)
